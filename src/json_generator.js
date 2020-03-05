@@ -14,16 +14,19 @@ const random_funcs = require('./random_data');
 let num = parseInt(cfg.number) || 100;
 let json_file = cfg.filename || './db.json';
 
-let data = [];
+let data = {
+    data: []
+};
 
 for (let idx = 0; idx < num; idx++) {
 
     let data_obj = {};
+    data_obj["id"] = idx + 1;
 
     if (out_name) {
         data_obj['name'] = random_funcs.getRandomName();
     }
-    if (out_name) {
+    if (out_address) {
         data_obj['address'] = random_funcs.getRandomAddress();
     }
     if (out_phone) {
@@ -33,12 +36,13 @@ for (let idx = 0; idx < num; idx++) {
         data_obj['email'] = random_funcs.getRandomEmail();
     }
 
-    data.push(data_obj);
+    data["data"].push(data_obj);
 }
 
 let data_json = JSON.stringify(data);
-
 fs.writeFileSync(json_file, data_json);
+
+
 
 
 
