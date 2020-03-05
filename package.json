@@ -1,0 +1,24 @@
+{
+  "name": "random-data.js",
+  "version": "0.1.0",
+  "description": "Javascript methods to produce random data for testing purposes",
+  "main": "random_data.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftwareDevPro/RandomData.JS.git"
+  },
+  "keywords": [],
+  "author": "Chris Adamson",
+  "license": "GNU GENERAL PUBLIC LICENSE v3",
+  "bugs": {
+    "url": "https://github.com/SoftwareDevPro/RandomData.JS/issues"
+  },
+  "homepage": "https://github.com/SoftwareDevPro/RandomData.JS#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "mocha": "^7.1.0"
+  }
+}

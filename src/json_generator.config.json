@@ -1,0 +1,5 @@
+{
+    "fields": [ "name", "email", "address", "phone"],
+    "number": "100",
+    "filename": "db.json"
+  }
