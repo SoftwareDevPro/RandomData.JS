@@ -9,26 +9,10 @@ const out_email = cfg.fields.indexOf('email') != -1;
 const out_address = cfg.fields.indexOf('address') != -1;
 const out_phone = cfg.fields.indexOf('phone') != -1;
 
-// console.log(out_name);
-// console.log(out_email);
-// console.log(out_address);
-// console.log(out_phone);
-
 const random_funcs = require('./random_data');
-
-// console.log(random_funcs.getRandomAddress())
-// console.log(random_funcs.getRandomEmail());
-// console.log(random_funcs.getRandomName());
-// console.log(random_funcs.getRandomPhoneNumber());
-
-// console.log(cfg.number);
-// console.log(parseInt(cfg.number))
-// console.log(cfg.filename);
-// console.log(cfg)
 
 let num = parseInt(cfg.number) || 100;
 let json_file = cfg.filename || './db.json';
-//console.log(num)
 
 let data = [];
 
