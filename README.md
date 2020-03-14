@@ -17,11 +17,18 @@ Javascript methods to produce random data for testing purposes
 * src/random_name.test.js - tests for random names
 * src/random_phone_numbers.js - generator function for random phone numbers
 * src/random_phone_numbers.test.js - tests for random phone numbers
+* src/random_user_name.js - generator function for random user names
+* src/random_user_name.test.js - tests for random user names
 * src/util.js - utility methods to aid in generating random data
 
 ## Running
 
 node src/json_generator.js
+
+## Running the tests
+
+npm install
+mocha src/*.test.js
 
 
 
