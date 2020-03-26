@@ -10,6 +10,8 @@ Javascript methods to produce random data for testing purposes
 * src/json_generator.js - json file generator
 * src/random_address.js - generator function for random addresses
 * src/random_address.test.js - tests for random addresses
+* src/random_book_titles.js - generator function for random book titles
+* src/random_book_titles.test.js - tests for the random book titles
 * src/random_data.js - collector of all the generator methods
 * src/random_email.js - generator function for random email addresses
 * src/random_email.test.js - tests for random emails
